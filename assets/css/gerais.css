@@ -1,4 +1,23 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap);
+
+#div-header-link{
+  padding-top: 20px; padding-bottom: 100px;
+}
+
+#section-unic{
+  margin-top: 5px;
+}
+
+@media (max-width: 765px) {
+  #section-unic{
+    margin-top: -30px;
+  }
+
+  #div-header-link{
+    padding-bottom: 0px;
+  }
+}
+
 .fa {
   font-family: Font Awesome\6 Pro;
   font-family: var(--fa-style-family, "Font Awesome 6 Pro");
