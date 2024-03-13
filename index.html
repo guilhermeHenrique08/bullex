@@ -8,6 +8,8 @@
       content="width=device-width,initial-scale=1,minimum-scale=1"
     />
 
+    <link rel="icon" type="image/pngn" href="assets/img/favicon.png">
+
     <link rel="stylesheet" href="assets/css/gerais.css">
   </head>
   <body>
@@ -25,11 +27,16 @@
                     alt="logo not found"
                 /></a>
               </div>
-              <div class="offcanvas__close"></div>
+
+              <div class="offcanvas__close">
+                <img src="assets/img/close.png" alt="Icone para fechar menu" class="bar-icon fa-light fa-bars fs-1">
+              </div>
             </div>
+
             <div class="mobile-menu fix"></div>
+
             <div class="offcanvas__btn">
-              <div class="header__btn-wrap">
+              <div class="header__btn-wrap" style="display: flex;flex-direction: column; align-items: start;">
                 <a
                   class="sub__btn sm"
                   href="https://trade.bull-ex.com/en/register"
@@ -51,7 +58,7 @@
     <div class="offcanvas__overlay-white"></div>
 
     <header>
-      <div
+      <div style="padding-top: 30px; padding-bottom: 70px;"
         id="header-sticky"
         class="header__area header-transparent header-common"
       >
@@ -93,7 +100,7 @@
                   <div class="header__hamburger ml-20 d-xl-none">
                     <div class="sidebar__toggle">
                       <button class="bar-icon">
-                            <img src="assets/img/menu-hamburguer.svg" class="bar-icon fa-light fa-bars fs-1" alt="">
+                            <img src="assets/img/menu-hamburguer.svg" class="bar-icon fa-light fa-bars fs-1" alt="Icone para abrir menu">
                       </button>
                     </div>
                   </div>
@@ -120,7 +127,7 @@
     </div>
 
     <main>
-      <section class="banner__area banner-6 p-relative z-index-11 x-clip">
+      <section style="margin-top: -45px;" class="banner__area banner-6 p-relative z-index-11 x-clip">
         <div class="banner__glow-6">
           <div class="glow-1 d-none d-md-block"></div>
           <div class="glow-2"></div>
@@ -161,6 +168,7 @@
               >
                 <div class="banner__thumb-5">
                   <img
+                  style="margin-top: -30px;"
                     src="assets/img/touro.webp"
                     alt="image not found"
                   />
